@@ -6,12 +6,6 @@ try:
 except:
 
     print("You have to create the file first")
-#
-# i = 10/0
-# print(i)
-#
-# l = [1, 2, 6, 9]
-# print(l[4])
 
 try:
     r = open("ab.txt")
@@ -35,3 +29,5 @@ try:
     z =10/0
 except Exception as e:
     print(type(e))
+
+#We added it here just for fun
